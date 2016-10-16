@@ -1,0 +1,63 @@
+.friends-icon{
+	background: url(https://cdn.discordapp.com/avatars/170745777889476608/78bf3724738fd42ccdf4747b662bc17a.jpg) !important;
+    background-size: 50px 50px !important;
+}/*profile picture as dm icon*/
+.guilds-wrapper{
+    top: -5px;
+    height: calc(100% + 25px);
+}
+.header-toolbar{
+    height: 30px;
+    position: absolute;
+    top: -31px;
+    right: 110px;
+    opacity: 0.5;
+    z-index: 3000 !important;
+    transition-duration: 0.15s !important;
+}
+.header-toolbar:hover{
+    opacity: 1;
+}
+.header-toolbar > button{
+    cursor: default;
+    opacity: 1;
+    margin-left: 0 !important;
+}
+.titlebar{
+    height: 31px;
+    top: -1px;
+    background: url(https://puu.sh/rIczU.ico);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 7px;
+    background-color: #1e2124;
+}
+.titlebar::after{
+    content: "Discord";
+    color: white;
+    top: 2px;
+    left: 25px;
+    position: relative;
+    font-family: "Segoe UI";
+    font-size: 12px;
+}
+.app{
+    height: calc(100% - 29px);
+    top: 30px !important;
+    position: absolute !important;
+}
+.separator{
+    display: none;
+}
+.win-buttons{
+    opacity: 0.5;
+    transition-duration: 0.15s !important;
+    height: 30px;
+}
+.win-buttons:hover{
+    opacity: 1;
+}
+.win-buttons > button{
+    cursor: default;
+    position: relative;
+}/*overhauled title bar built by @facespkz#6946*/
