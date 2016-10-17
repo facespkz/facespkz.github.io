@@ -1,23 +1,6 @@
 /*copy/paste the following line into your discord client's custom css
 @import url(https://facespkz.github.io/css/discordTitle-win.css);
 */
-.header-toolbar{
-    height: 30px;
-    position: absolute;
-    top: -31px;
-    right: 110px;
-    opacity: 0.5;
-    z-index: 3000 !important;
-    transition-duration: 0.15s !important;
-}
-.header-toolbar:hover{
-    opacity: 1;
-}
-.header-toolbar > button{
-    cursor: default;
-    opacity: 1;
-    margin-left: 0 !important;
-}
 .titlebar{
     height: 31px;
     top: -1px;
@@ -40,9 +23,6 @@
     height: calc(100% - 29px);
     top: 30px !important;
     position: absolute !important;
-}
-.separator{
-    display: none;
 }
 .win-buttons{
     opacity: 0.5;
