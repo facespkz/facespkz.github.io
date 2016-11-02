@@ -21,7 +21,7 @@
 }
 .app{
     height: calc(100% - 29px);
-    top: 30px !important;
+    top: 29px !important;
     position: absolute !important;
 }
 .win-buttons{
